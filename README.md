@@ -1,6 +1,6 @@
 ## Using Transfer Learning to achieve > 80% accuracy on a dataset of less than 1000 images
 
-Using state of the art **DensetNet** architecture for object recognition as a pretrained model and *Pytorch* library for Deep Learning, I showcased the use of *Transfer Learning* by replacing the last fully connected linear layer with another fc layer with the number of output features = 5 classes as per our use case. All the previous layers were frozen and the network trained on our dataset updating only the weights of the last layer. As a result, I was able to achieve **89.3%** accuracy on the Training set and **82.2%** accuracy on the Validation Set within only 15 epochs.
+Using state of the art **DensetNet** architecture for object recognition as a pretrained model and *Pytorch* library for Deep Learning, I showcased the use of *Transfer Learning* by replacing the last fully connected linear layer with another fc layer with the number of output features = 5 classes as per our use case. All the previous layers were frozen and the network trained on our dataset updating only the weights of the last layer. The early layers were able to recognizse basic features as the original model trained on 1000 classes of imagenet dataset. By updating the last layer I combined these features into 5 classes for our dataset. As a result, I was able to achieve **89.3%** accuracy on the Training set and **82.2%** accuracy on the Validation Set within only 15 epochs.
 
 ## Dataset
 
