@@ -27,7 +27,7 @@ Batch Size for the dataset loader = 10
 
 Here are some of the results after the training  from the validation dataset
 
-![1](results/1.png) ![2](results\2.png) ![3](results\3.png)
+![1](results/1.png) ![2](results/2.png) ![3](results/3.png)
 
 Best Validation Accuracy = 82.2%
 Best Training Accuracy = 89.3%
